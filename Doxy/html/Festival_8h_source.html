@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>OOMP Klausur: /home/ngerth/OOMP/Klausur/include/Festival.h Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">OOMP Klausur
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Suchen');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Festival.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Festival_8h.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef Festival_h</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define Festival_h</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classFestival.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classFestival.html">Festival</a> : <span class="keyword">public</span> <a class="code" href="classBasicTicket.html">BasicTicket</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    std::string mStartDate; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::string mEndDate; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::string mFestivalName; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="classFestival.html#a5548b9a08d868d1a53bd84a5b0a9575b">Festival</a>(<a class="code" href="classBasicTicket.html">BasicTicket</a> &amp;BT, std::string StartDate, std::string EndDate, std::string FestivalName);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classFestival.html#a5995d205699f8ffc5edcb8f59cb96915">~Festival</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::string <a class="code" href="classFestival.html#a273c02427194e67f967a6727dfca952f">getStartDate</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::string <a class="code" href="classFestival.html#ae4d695e6d710fb815b0200406a151d8c">getEndDate</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::string <a class="code" href="classFestival.html#a018cb4b50bb763686c0c0e54e1f92a9b">getFestivalName</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classFestival.html#a2ff27f5e2253e8058a0285d64cfa36ff">print</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::stringstream <a class="code" href="classFestival.html#af8764a9de99e142b64ae55e370907bfd">T2CSV</a>();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassBasicTicket_html"><div class="ttname"><a href="classBasicTicket.html">BasicTicket</a></div><div class="ttdoc">The BasicTicket class represents a basic ticket with place, price, and availability information.</div><div class="ttdef"><b>Definition:</b> BasicTicket.h:16</div></div>
+<div class="ttc" id="aclassFestival_html"><div class="ttname"><a href="classFestival.html">Festival</a></div><div class="ttdoc">The Festival class represents a festival ticket with additional start date, end date,...</div><div class="ttdef"><b>Definition:</b> Festival.h:16</div></div>
+<div class="ttc" id="aclassFestival_html_a018cb4b50bb763686c0c0e54e1f92a9b"><div class="ttname"><a href="classFestival.html#a018cb4b50bb763686c0c0e54e1f92a9b">Festival::getFestivalName</a></div><div class="ttdeci">std::string getFestivalName()</div><div class="ttdoc">Get the name of the festival.</div><div class="ttdef"><b>Definition:</b> Festival.cc:24</div></div>
+<div class="ttc" id="aclassFestival_html_a273c02427194e67f967a6727dfca952f"><div class="ttname"><a href="classFestival.html#a273c02427194e67f967a6727dfca952f">Festival::getStartDate</a></div><div class="ttdeci">std::string getStartDate()</div><div class="ttdoc">Get the start date of the festival.</div><div class="ttdef"><b>Definition:</b> Festival.cc:14</div></div>
+<div class="ttc" id="aclassFestival_html_a2ff27f5e2253e8058a0285d64cfa36ff"><div class="ttname"><a href="classFestival.html#a2ff27f5e2253e8058a0285d64cfa36ff">Festival::print</a></div><div class="ttdeci">void print()</div><div class="ttdoc">Print festival ticket details.</div><div class="ttdef"><b>Definition:</b> Festival.cc:28</div></div>
+<div class="ttc" id="aclassFestival_html_a5548b9a08d868d1a53bd84a5b0a9575b"><div class="ttname"><a href="classFestival.html#a5548b9a08d868d1a53bd84a5b0a9575b">Festival::Festival</a></div><div class="ttdeci">Festival(BasicTicket &amp;BT, std::string StartDate, std::string EndDate, std::string FestivalName)</div><div class="ttdoc">Constructor for the Festival class.</div><div class="ttdef"><b>Definition:</b> Festival.cc:3</div></div>
+<div class="ttc" id="aclassFestival_html_a5995d205699f8ffc5edcb8f59cb96915"><div class="ttname"><a href="classFestival.html#a5995d205699f8ffc5edcb8f59cb96915">Festival::~Festival</a></div><div class="ttdeci">~Festival()</div><div class="ttdoc">Destructor for the Festival class.</div><div class="ttdef"><b>Definition:</b> Festival.cc:10</div></div>
+<div class="ttc" id="aclassFestival_html_ae4d695e6d710fb815b0200406a151d8c"><div class="ttname"><a href="classFestival.html#ae4d695e6d710fb815b0200406a151d8c">Festival::getEndDate</a></div><div class="ttdeci">std::string getEndDate()</div><div class="ttdoc">Get the end date of the festival.</div><div class="ttdef"><b>Definition:</b> Festival.cc:19</div></div>
+<div class="ttc" id="aclassFestival_html_af8764a9de99e142b64ae55e370907bfd"><div class="ttname"><a href="classFestival.html#af8764a9de99e142b64ae55e370907bfd">Festival::T2CSV</a></div><div class="ttdeci">std::stringstream T2CSV()</div><div class="ttdoc">Convert festival ticket details to a CSV string.</div><div class="ttdef"><b>Definition:</b> Festival.cc:37</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt von&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

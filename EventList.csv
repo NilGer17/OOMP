@@ -1,0 +1,5 @@
+Typ,Place,Price,TicketCount,Date,Time,Artist,StartDate,EndDate,FestivalName,TeamA,TeamB,Sportstype,Discirption
+Konzert,WOB,6553600,40,4996,10.Juni,12h,NilsDerGrosse,,,,,,
+Festival,Hannover,1310720,98,2990,,,,9.7.,20.7.,CPP Festival,,,,
+Teamevent,Bokensdorf,0,1,1,morgen,mittag,,,,,Nils,Jan,Golf,
+Sonstiges,WOB,2560,8,4096,niemals,nachts,,,,,,,,Hier steht meine coole Beschreibung

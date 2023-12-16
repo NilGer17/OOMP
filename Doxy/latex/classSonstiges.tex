@@ -1,0 +1,143 @@
+\hypertarget{classSonstiges}{}\doxysection{Sonstiges Klassenreferenz}
+\label{classSonstiges}\index{Sonstiges@{Sonstiges}}
+
+
+The \mbox{\hyperlink{classSonstiges}{Sonstiges}} class represents a miscellaneous ticket with additional description, date, and time information.  
+
+
+
+
+{\ttfamily \#include $<$Sonstige.\+h$>$}
+
+
+
+Klassendiagramm für Sonstiges\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classSonstiges__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Zusammengehörigkeiten von Sonstiges\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classSonstiges__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSonstiges_a5a0ace54178bac4111c185403a32b81b}{Sonstiges}} (\mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} \&BT, std\+::string Description, std\+::string Date, std\+::string Time)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classSonstiges}{Sonstiges}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSonstiges_aeeb6c41d655e16579796448c58bcd1db}\label{classSonstiges_aeeb6c41d655e16579796448c58bcd1db}} 
+\mbox{\hyperlink{classSonstiges_aeeb6c41d655e16579796448c58bcd1db}{$\sim$\+Sonstiges}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classSonstiges}{Sonstiges}} class. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSonstiges_aa67a50bbec624d734c3f7e59f20011a3}{get\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Get the date of the miscellaneous event. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSonstiges_a8a55618a83b947879f0eed2255bb29af}{get\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Get the time of the miscellaneous event. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSonstiges_a3bff42632695bd5e19e8ee651d29e2b3}{get\+Discription}} ()
+\begin{DoxyCompactList}\small\item\em Get the description of the miscellaneous event or ticket. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSonstiges_a8937339f9e48fdcebcd1f4c952bf64b1}\label{classSonstiges_a8937339f9e48fdcebcd1f4c952bf64b1}} 
+void \mbox{\hyperlink{classSonstiges_a8937339f9e48fdcebcd1f4c952bf64b1}{print}} ()
+\begin{DoxyCompactList}\small\item\em Print miscellaneous ticket details. \end{DoxyCompactList}\item 
+std\+::stringstream \mbox{\hyperlink{classSonstiges_a0fd90180b208ccbec772814f2f5304fd}{T2\+CSV}} ()
+\begin{DoxyCompactList}\small\item\em Convert miscellaneous ticket details to a CSV string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Weitere Geerbte Elemente}
+
+
+\doxysubsection{Ausführliche Beschreibung}
+The \mbox{\hyperlink{classSonstiges}{Sonstiges}} class represents a miscellaneous ticket with additional description, date, and time information. 
+
+\doxysubsection{Beschreibung der Konstruktoren und Destruktoren}
+\mbox{\Hypertarget{classSonstiges_a5a0ace54178bac4111c185403a32b81b}\label{classSonstiges_a5a0ace54178bac4111c185403a32b81b}} 
+\index{Sonstiges@{Sonstiges}!Sonstiges@{Sonstiges}}
+\index{Sonstiges@{Sonstiges}!Sonstiges@{Sonstiges}}
+\doxysubsubsection{\texorpdfstring{Sonstiges()}{Sonstiges()}}
+{\footnotesize\ttfamily Sonstiges\+::\+Sonstiges (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} \&}]{BT,  }\item[{std\+::string}]{Description,  }\item[{std\+::string}]{Date,  }\item[{std\+::string}]{Time }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classSonstiges}{Sonstiges}} class. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em BT} & The \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} object to inherit properties from. \\
+\hline
+{\em Description} & The description of the miscellaneous event or ticket. \\
+\hline
+{\em Date} & The date of the miscellaneous event. \\
+\hline
+{\em Time} & The time of the miscellaneous event. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentation der Elementfunktionen}
+\mbox{\Hypertarget{classSonstiges_aa67a50bbec624d734c3f7e59f20011a3}\label{classSonstiges_aa67a50bbec624d734c3f7e59f20011a3}} 
+\index{Sonstiges@{Sonstiges}!getDate@{getDate}}
+\index{getDate@{getDate}!Sonstiges@{Sonstiges}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily std\+::string Sonstiges\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the date of the miscellaneous event. 
+
+\begin{DoxyReturn}{Rückgabe}
+The event date. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSonstiges_a3bff42632695bd5e19e8ee651d29e2b3}\label{classSonstiges_a3bff42632695bd5e19e8ee651d29e2b3}} 
+\index{Sonstiges@{Sonstiges}!getDiscription@{getDiscription}}
+\index{getDiscription@{getDiscription}!Sonstiges@{Sonstiges}}
+\doxysubsubsection{\texorpdfstring{getDiscription()}{getDiscription()}}
+{\footnotesize\ttfamily std\+::string Sonstiges\+::get\+Discription (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the description of the miscellaneous event or ticket. 
+
+\begin{DoxyReturn}{Rückgabe}
+The event description. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSonstiges_a8a55618a83b947879f0eed2255bb29af}\label{classSonstiges_a8a55618a83b947879f0eed2255bb29af}} 
+\index{Sonstiges@{Sonstiges}!getTime@{getTime}}
+\index{getTime@{getTime}!Sonstiges@{Sonstiges}}
+\doxysubsubsection{\texorpdfstring{getTime()}{getTime()}}
+{\footnotesize\ttfamily std\+::string Sonstiges\+::get\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the time of the miscellaneous event. 
+
+\begin{DoxyReturn}{Rückgabe}
+The event time. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSonstiges_a0fd90180b208ccbec772814f2f5304fd}\label{classSonstiges_a0fd90180b208ccbec772814f2f5304fd}} 
+\index{Sonstiges@{Sonstiges}!T2CSV@{T2CSV}}
+\index{T2CSV@{T2CSV}!Sonstiges@{Sonstiges}}
+\doxysubsubsection{\texorpdfstring{T2CSV()}{T2CSV()}}
+{\footnotesize\ttfamily std\+::stringstream Sonstiges\+::\+T2\+CSV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Convert miscellaneous ticket details to a CSV string. 
+
+\begin{DoxyReturn}{Rückgabe}
+A stringstream containing CSV data. 
+\end{DoxyReturn}
+
+
+Erneute Implementation von \mbox{\hyperlink{classBasicTicket_ad3eae5b07ee6e2caf314d5d4bf9b5c1c}{Basic\+Ticket}}.
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\+:\begin{DoxyCompactItemize}
+\item 
+/home/ngerth/\+OOMP/\+Klausur/include/Sonstige.\+h\item 
+/home/ngerth/\+OOMP/\+Klausur/src/Sonstige.\+cc\end{DoxyCompactItemize}

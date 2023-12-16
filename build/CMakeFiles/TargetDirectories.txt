@@ -1,0 +1,3 @@
+/home/ngerth/OOMP/Klausur/build/CMakeFiles/CPP_Klausur_GERTH.dir
+/home/ngerth/OOMP/Klausur/build/CMakeFiles/edit_cache.dir
+/home/ngerth/OOMP/Klausur/build/CMakeFiles/rebuild_cache.dir

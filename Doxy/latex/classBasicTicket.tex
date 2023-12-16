@@ -1,0 +1,187 @@
+\hypertarget{classBasicTicket}{}\doxysection{Basic\+Ticket Klassenreferenz}
+\label{classBasicTicket}\index{BasicTicket@{BasicTicket}}
+
+
+The \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} class represents a basic ticket with place, price, and availability information.  
+
+
+
+
+{\ttfamily \#include $<$Basic\+Ticket.\+h$>$}
+
+
+
+Klassendiagramm für Basic\+Ticket\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBasicTicket__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBasicTicket_a3216869fe104868889ed73dfdb6213a5}{Basic\+Ticket}} (std\+::string Place, uint Price, uint Available\+Tickets, uint Availibe\+Tickets\+Max)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBasicTicket_ab2179baf58a379641637e4a7f18cb4ab}\label{classBasicTicket_ab2179baf58a379641637e4a7f18cb4ab}} 
+\mbox{\hyperlink{classBasicTicket_ab2179baf58a379641637e4a7f18cb4ab}{$\sim$\+Basic\+Ticket}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} class. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classBasicTicket_a38343295658b959e1cf000bb4dbcc998}{get\+Place}} ()
+\begin{DoxyCompactList}\small\item\em Get the place for which the ticket is valid. \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{classBasicTicket_aff745ab48290446fa0faacf2a055839c}{get\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Get the price of the ticket. \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{classBasicTicket_afed003ce47d8668b58a1d11c73d9e999}{get\+Availabe\+Ticket\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Get the current number of available tickets. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBasicTicket_a4a76c444386146cb99f65924620a49ff}\label{classBasicTicket_a4a76c444386146cb99f65924620a49ff}} 
+virtual void \mbox{\hyperlink{classBasicTicket_a4a76c444386146cb99f65924620a49ff}{print}} ()
+\begin{DoxyCompactList}\small\item\em Virtual method to print ticket details. Subclasses should override this method. \end{DoxyCompactList}\item 
+virtual std\+::stringstream \mbox{\hyperlink{classBasicTicket_ad3eae5b07ee6e2caf314d5d4bf9b5c1c}{T2\+CSV}} ()
+\begin{DoxyCompactList}\small\item\em Virtual method to convert ticket details to a CSV string. Subclasses should override this method. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBasicTicket_a0e4ccf95828b6afeff1b1ea8f96863ee}{decrease\+Ticket\+Amout}} (int minus\+Tickets)
+\begin{DoxyCompactList}\small\item\em Decrease the number of available tickets. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Geschützte Attribute}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classBasicTicket_ad6a6cdb60ccdbb1cfc68383a14f2b6cd}{m\+Place}}
+\item 
+uint \mbox{\hyperlink{classBasicTicket_a8e65c2408927a6772cca44e6fe374eb1}{m\+Price}}
+\item 
+uint \mbox{\hyperlink{classBasicTicket_a0882a128f17df152ea6312a7902f998d}{m\+Availibe\+Tickets\+Max}}
+\item 
+uint \mbox{\hyperlink{classBasicTicket_a7fe57db2c80949bbea6281525e5ece34}{m\+Availibe\+Tickets}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Ausführliche Beschreibung}
+The \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} class represents a basic ticket with place, price, and availability information. 
+
+\doxysubsection{Beschreibung der Konstruktoren und Destruktoren}
+\mbox{\Hypertarget{classBasicTicket_a3216869fe104868889ed73dfdb6213a5}\label{classBasicTicket_a3216869fe104868889ed73dfdb6213a5}} 
+\index{BasicTicket@{BasicTicket}!BasicTicket@{BasicTicket}}
+\index{BasicTicket@{BasicTicket}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{BasicTicket()}{BasicTicket()}}
+{\footnotesize\ttfamily Basic\+Ticket\+::\+Basic\+Ticket (\begin{DoxyParamCaption}\item[{std\+::string}]{Place,  }\item[{uint}]{Price,  }\item[{uint}]{Available\+Tickets,  }\item[{uint}]{Availibe\+Tickets\+Max }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} class. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em Place} & The place for which the ticket is valid. \\
+\hline
+{\em Price} & The price of the ticket. \\
+\hline
+{\em Available\+Tickets} & The initial number of available tickets. \\
+\hline
+{\em Availibe\+Tickets\+Max} & The maximum number of available tickets. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentation der Elementfunktionen}
+\mbox{\Hypertarget{classBasicTicket_a0e4ccf95828b6afeff1b1ea8f96863ee}\label{classBasicTicket_a0e4ccf95828b6afeff1b1ea8f96863ee}} 
+\index{BasicTicket@{BasicTicket}!decreaseTicketAmout@{decreaseTicketAmout}}
+\index{decreaseTicketAmout@{decreaseTicketAmout}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{decreaseTicketAmout()}{decreaseTicketAmout()}}
+{\footnotesize\ttfamily void Basic\+Ticket\+::decrease\+Ticket\+Amout (\begin{DoxyParamCaption}\item[{int}]{minus\+Tickets }\end{DoxyParamCaption})}
+
+
+
+Decrease the number of available tickets. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em minus\+Tickets} & The number of tickets to decrease. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBasicTicket_afed003ce47d8668b58a1d11c73d9e999}\label{classBasicTicket_afed003ce47d8668b58a1d11c73d9e999}} 
+\index{BasicTicket@{BasicTicket}!getAvailabeTicketCount@{getAvailabeTicketCount}}
+\index{getAvailabeTicketCount@{getAvailabeTicketCount}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{getAvailabeTicketCount()}{getAvailabeTicketCount()}}
+{\footnotesize\ttfamily uint Basic\+Ticket\+::get\+Availabe\+Ticket\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the current number of available tickets. 
+
+\begin{DoxyReturn}{Rückgabe}
+The current number of available tickets. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBasicTicket_a38343295658b959e1cf000bb4dbcc998}\label{classBasicTicket_a38343295658b959e1cf000bb4dbcc998}} 
+\index{BasicTicket@{BasicTicket}!getPlace@{getPlace}}
+\index{getPlace@{getPlace}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{getPlace()}{getPlace()}}
+{\footnotesize\ttfamily std\+::string Basic\+Ticket\+::get\+Place (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the place for which the ticket is valid. 
+
+\begin{DoxyReturn}{Rückgabe}
+The place. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBasicTicket_aff745ab48290446fa0faacf2a055839c}\label{classBasicTicket_aff745ab48290446fa0faacf2a055839c}} 
+\index{BasicTicket@{BasicTicket}!getPrice@{getPrice}}
+\index{getPrice@{getPrice}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{getPrice()}{getPrice()}}
+{\footnotesize\ttfamily uint Basic\+Ticket\+::get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the price of the ticket. 
+
+\begin{DoxyReturn}{Rückgabe}
+The price. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBasicTicket_ad3eae5b07ee6e2caf314d5d4bf9b5c1c}\label{classBasicTicket_ad3eae5b07ee6e2caf314d5d4bf9b5c1c}} 
+\index{BasicTicket@{BasicTicket}!T2CSV@{T2CSV}}
+\index{T2CSV@{T2CSV}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{T2CSV()}{T2CSV()}}
+{\footnotesize\ttfamily std\+::stringstream Basic\+Ticket\+::\+T2\+CSV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Virtual method to convert ticket details to a CSV string. Subclasses should override this method. 
+
+\begin{DoxyReturn}{Rückgabe}
+A stringstream containing CSV data. 
+\end{DoxyReturn}
+
+
+Erneute Implementation in \mbox{\hyperlink{classTeamevent_ad752544ad3f3276207f89903a3c7458b}{Teamevent}}, \mbox{\hyperlink{classSonstiges_a0fd90180b208ccbec772814f2f5304fd}{Sonstiges}}, \mbox{\hyperlink{classKonzert_ade4bac9ddb327bef3736061105998322}{Konzert}} und \mbox{\hyperlink{classFestival_af8764a9de99e142b64ae55e370907bfd}{Festival}}.
+
+
+
+\doxysubsection{Dokumentation der Datenelemente}
+\mbox{\Hypertarget{classBasicTicket_a7fe57db2c80949bbea6281525e5ece34}\label{classBasicTicket_a7fe57db2c80949bbea6281525e5ece34}} 
+\index{BasicTicket@{BasicTicket}!mAvailibeTickets@{mAvailibeTickets}}
+\index{mAvailibeTickets@{mAvailibeTickets}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{mAvailibeTickets}{mAvailibeTickets}}
+{\footnotesize\ttfamily uint Basic\+Ticket\+::m\+Availibe\+Tickets\hspace{0.3cm}{\ttfamily [protected]}}
+
+The current number of available tickets. \mbox{\Hypertarget{classBasicTicket_a0882a128f17df152ea6312a7902f998d}\label{classBasicTicket_a0882a128f17df152ea6312a7902f998d}} 
+\index{BasicTicket@{BasicTicket}!mAvailibeTicketsMax@{mAvailibeTicketsMax}}
+\index{mAvailibeTicketsMax@{mAvailibeTicketsMax}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{mAvailibeTicketsMax}{mAvailibeTicketsMax}}
+{\footnotesize\ttfamily uint Basic\+Ticket\+::m\+Availibe\+Tickets\+Max\hspace{0.3cm}{\ttfamily [protected]}}
+
+The maximum number of available tickets. \mbox{\Hypertarget{classBasicTicket_ad6a6cdb60ccdbb1cfc68383a14f2b6cd}\label{classBasicTicket_ad6a6cdb60ccdbb1cfc68383a14f2b6cd}} 
+\index{BasicTicket@{BasicTicket}!mPlace@{mPlace}}
+\index{mPlace@{mPlace}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{mPlace}{mPlace}}
+{\footnotesize\ttfamily std\+::string Basic\+Ticket\+::m\+Place\hspace{0.3cm}{\ttfamily [protected]}}
+
+The place for which the ticket is valid. \mbox{\Hypertarget{classBasicTicket_a8e65c2408927a6772cca44e6fe374eb1}\label{classBasicTicket_a8e65c2408927a6772cca44e6fe374eb1}} 
+\index{BasicTicket@{BasicTicket}!mPrice@{mPrice}}
+\index{mPrice@{mPrice}!BasicTicket@{BasicTicket}}
+\doxysubsubsection{\texorpdfstring{mPrice}{mPrice}}
+{\footnotesize\ttfamily uint Basic\+Ticket\+::m\+Price\hspace{0.3cm}{\ttfamily [protected]}}
+
+The price of the ticket. 
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\+:\begin{DoxyCompactItemize}
+\item 
+/home/ngerth/\+OOMP/\+Klausur/include/\mbox{\hyperlink{BasicTicket_8h}{Basic\+Ticket.\+h}}\item 
+/home/ngerth/\+OOMP/\+Klausur/src/Basic\+Ticket.\+cc\end{DoxyCompactItemize}

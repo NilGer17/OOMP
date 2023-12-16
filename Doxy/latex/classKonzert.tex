@@ -1,0 +1,143 @@
+\hypertarget{classKonzert}{}\doxysection{Konzert Klassenreferenz}
+\label{classKonzert}\index{Konzert@{Konzert}}
+
+
+The \mbox{\hyperlink{classKonzert}{Konzert}} class represents a concert ticket with additional date, time, and artist information.  
+
+
+
+
+{\ttfamily \#include $<$Konzert.\+h$>$}
+
+
+
+Klassendiagramm für Konzert\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classKonzert__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Zusammengehörigkeiten von Konzert\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classKonzert__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classKonzert_a81d745ef11785831405baaaa89f5e78a}{Konzert}} (\mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} \&BT, std\+::string Date, std\+::string Time, std\+::string Artist)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classKonzert}{Konzert}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classKonzert_af748f71b17bd415987fe702ca6d5ad97}\label{classKonzert_af748f71b17bd415987fe702ca6d5ad97}} 
+\mbox{\hyperlink{classKonzert_af748f71b17bd415987fe702ca6d5ad97}{$\sim$\+Konzert}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \mbox{\hyperlink{classKonzert}{Konzert}} class. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKonzert_af5375e4a72fcef6f9f83a60d64a2455b}{get\+Date}} ()
+\begin{DoxyCompactList}\small\item\em Get the date of the concert. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKonzert_a6908d582af0d5d77c1d4f0941adffffb}{get\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Get the time of the concert. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classKonzert_ad2a15664aef86dbbf9c80723be39e056}{get\+Artist}} ()
+\begin{DoxyCompactList}\small\item\em Get the name of the artist or band performing at the concert. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classKonzert_a0e49e10b144f3370bf3e3714ff4479d9}\label{classKonzert_a0e49e10b144f3370bf3e3714ff4479d9}} 
+void \mbox{\hyperlink{classKonzert_a0e49e10b144f3370bf3e3714ff4479d9}{print}} ()
+\begin{DoxyCompactList}\small\item\em Print concert ticket details. \end{DoxyCompactList}\item 
+std\+::stringstream \mbox{\hyperlink{classKonzert_ade4bac9ddb327bef3736061105998322}{T2\+CSV}} ()
+\begin{DoxyCompactList}\small\item\em Convert concert ticket details to a CSV string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Weitere Geerbte Elemente}
+
+
+\doxysubsection{Ausführliche Beschreibung}
+The \mbox{\hyperlink{classKonzert}{Konzert}} class represents a concert ticket with additional date, time, and artist information. 
+
+\doxysubsection{Beschreibung der Konstruktoren und Destruktoren}
+\mbox{\Hypertarget{classKonzert_a81d745ef11785831405baaaa89f5e78a}\label{classKonzert_a81d745ef11785831405baaaa89f5e78a}} 
+\index{Konzert@{Konzert}!Konzert@{Konzert}}
+\index{Konzert@{Konzert}!Konzert@{Konzert}}
+\doxysubsubsection{\texorpdfstring{Konzert()}{Konzert()}}
+{\footnotesize\ttfamily Konzert\+::\+Konzert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} \&}]{BT,  }\item[{std\+::string}]{Date,  }\item[{std\+::string}]{Time,  }\item[{std\+::string}]{Artist }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classKonzert}{Konzert}} class. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em BT} & The \mbox{\hyperlink{classBasicTicket}{Basic\+Ticket}} object to inherit properties from. \\
+\hline
+{\em Date} & The date of the concert. \\
+\hline
+{\em Time} & The time of the concert. \\
+\hline
+{\em Artist} & The name of the artist or band performing at the concert. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentation der Elementfunktionen}
+\mbox{\Hypertarget{classKonzert_ad2a15664aef86dbbf9c80723be39e056}\label{classKonzert_ad2a15664aef86dbbf9c80723be39e056}} 
+\index{Konzert@{Konzert}!getArtist@{getArtist}}
+\index{getArtist@{getArtist}!Konzert@{Konzert}}
+\doxysubsubsection{\texorpdfstring{getArtist()}{getArtist()}}
+{\footnotesize\ttfamily std\+::string Konzert\+::get\+Artist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the name of the artist or band performing at the concert. 
+
+\begin{DoxyReturn}{Rückgabe}
+The artist\textquotesingle{}s name. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classKonzert_af5375e4a72fcef6f9f83a60d64a2455b}\label{classKonzert_af5375e4a72fcef6f9f83a60d64a2455b}} 
+\index{Konzert@{Konzert}!getDate@{getDate}}
+\index{getDate@{getDate}!Konzert@{Konzert}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily std\+::string Konzert\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the date of the concert. 
+
+\begin{DoxyReturn}{Rückgabe}
+The concert date. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classKonzert_a6908d582af0d5d77c1d4f0941adffffb}\label{classKonzert_a6908d582af0d5d77c1d4f0941adffffb}} 
+\index{Konzert@{Konzert}!getTime@{getTime}}
+\index{getTime@{getTime}!Konzert@{Konzert}}
+\doxysubsubsection{\texorpdfstring{getTime()}{getTime()}}
+{\footnotesize\ttfamily std\+::string Konzert\+::get\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the time of the concert. 
+
+\begin{DoxyReturn}{Rückgabe}
+The concert time. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classKonzert_ade4bac9ddb327bef3736061105998322}\label{classKonzert_ade4bac9ddb327bef3736061105998322}} 
+\index{Konzert@{Konzert}!T2CSV@{T2CSV}}
+\index{T2CSV@{T2CSV}!Konzert@{Konzert}}
+\doxysubsubsection{\texorpdfstring{T2CSV()}{T2CSV()}}
+{\footnotesize\ttfamily std\+::stringstream Konzert\+::\+T2\+CSV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Convert concert ticket details to a CSV string. 
+
+\begin{DoxyReturn}{Rückgabe}
+A stringstream containing CSV data. 
+\end{DoxyReturn}
+
+
+Erneute Implementation von \mbox{\hyperlink{classBasicTicket_ad3eae5b07ee6e2caf314d5d4bf9b5c1c}{Basic\+Ticket}}.
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\+:\begin{DoxyCompactItemize}
+\item 
+/home/ngerth/\+OOMP/\+Klausur/include/\mbox{\hyperlink{Konzert_8h}{Konzert.\+h}}\item 
+/home/ngerth/\+OOMP/\+Klausur/src/Konzert.\+cc\end{DoxyCompactItemize}

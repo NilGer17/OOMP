@@ -1,0 +1,7 @@
+<map id="BasicTicket" name="BasicTicket">
+<area shape="rect" id="node1" title="The BasicTicket class represents a basic ticket with place, price, and availability information." alt="" coords="141,5,237,32"/>
+<area shape="rect" id="node2" href="$classFestival.html" title="The Festival class represents a festival ticket with additional start date, end date,..." alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="$classKonzert.html" title="The Konzert class represents a concert ticket with additional date, time, and artist information." alt="" coords="103,80,173,107"/>
+<area shape="rect" id="node4" href="$classSonstiges.html" title="The Sonstiges class represents a miscellaneous ticket with additional description,..." alt="" coords="198,80,283,107"/>
+<area shape="rect" id="node5" href="$classTeamevent.html" title="The Teamevent class represents a team sports event ticket with information about the teams,..." alt="" coords="308,80,403,107"/>
+</map>

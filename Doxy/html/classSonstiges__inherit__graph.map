@@ -1,0 +1,4 @@
+<map id="Sonstiges" name="Sonstiges">
+<area shape="rect" id="node1" title="The Sonstiges class represents a miscellaneous ticket with additional description,..." alt="" coords="11,80,96,107"/>
+<area shape="rect" id="node2" href="$classBasicTicket.html" title="The BasicTicket class represents a basic ticket with place, price, and availability information." alt="" coords="5,5,101,32"/>
+</map>

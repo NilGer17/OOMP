@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/CPP_Klausur.dir/main.cc.o -o CPP_Klausur 
