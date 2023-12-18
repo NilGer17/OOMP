@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ngerth/OOMP/Klausur/build -I/home/ngerth/OOMP/Klausur
+CXX_INCLUDES = -I"/mnt/c/Users/nilsg/Desktop/Nils Gerth/build" -I"/mnt/c/Users/nilsg/Desktop/Nils Gerth"
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ngerth/OOMP/Klausur
+# Install script for directory: /mnt/c/Users/nilsg/Desktop/Nils Gerth
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ngerth/OOMP/Klausur/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

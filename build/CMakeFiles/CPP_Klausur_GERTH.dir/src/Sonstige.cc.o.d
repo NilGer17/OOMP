@@ -1,7 +1,8 @@
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o: \
- /home/ngerth/OOMP/Klausur/src/Sonstige.cc /usr/include/stdc-predef.h \
- /home/ngerth/OOMP/Klausur/include/Sonstige.h \
- /home/ngerth/OOMP/Klausur/include/BasicTicket.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/src/Sonstige.cc \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Sonstige.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/BasicTicket.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

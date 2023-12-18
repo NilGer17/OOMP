@@ -1,4 +1,0 @@
-<map id="Teamevent" name="Teamevent">
-<area shape="rect" id="node1" title="The Teamevent class represents a team sports event ticket with information about the teams,..." alt="" coords="6,80,101,107"/>
-<area shape="rect" id="node2" href="$classBasicTicket.html" title="The BasicTicket class represents a basic ticket with place, price, and availability information." alt="" coords="5,5,101,32"/>
-</map>

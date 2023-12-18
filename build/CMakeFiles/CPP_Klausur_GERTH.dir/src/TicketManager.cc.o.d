@@ -1,8 +1,8 @@
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o: \
- /home/ngerth/OOMP/Klausur/src/TicketManager.cc \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/src/TicketManager.cc \
  /usr/include/stdc-predef.h \
- /home/ngerth/OOMP/Klausur/include/TicketManager.h \
- /home/ngerth/OOMP/Klausur/include/BasicTicket.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/TicketManager.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/BasicTicket.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,11 +153,11 @@ CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/ngerth/OOMP/Klausur/include/Konzert.h \
- /home/ngerth/OOMP/Klausur/include/Festival.h \
- /home/ngerth/OOMP/Klausur/include/Teamevent.h \
- /home/ngerth/OOMP/Klausur/include/Sonstige.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Konzert.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Festival.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Teamevent.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Sonstige.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ngerth/OOMP/Klausur
+CMAKE_SOURCE_DIR = "/mnt/c/Users/nilsg/Desktop/Nils Gerth"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ngerth/OOMP/Klausur/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CPP_Klausur_GERTH.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o: ../main.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o -c /home/ngerth/OOMP/Klausur/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/main.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/main.cc > CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/main.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/main.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/main.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/main.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o: ../src/BasicTicket.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o -c /home/ngerth/OOMP/Klausur/src/BasicTicket.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/BasicTicket.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/BasicTicket.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/BasicTicket.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/BasicTicket.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/BasicTicket.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/BasicTicket.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o: ../src/TicketManager.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o -c /home/ngerth/OOMP/Klausur/src/TicketManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/TicketManager.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/TicketManager.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/TicketManager.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/TicketManager.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/TicketManager.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/TicketManager.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o: ../src/Festival.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o -c /home/ngerth/OOMP/Klausur/src/Festival.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Festival.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/Festival.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Festival.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/Festival.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Festival.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Festival.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o: ../src/Konzert.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o -c /home/ngerth/OOMP/Klausur/src/Konzert.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Konzert.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/Konzert.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Konzert.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/Konzert.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Konzert.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o: ../src/Teamevent.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o -c /home/ngerth/OOMP/Klausur/src/Teamevent.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Teamevent.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/Teamevent.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Teamevent.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/Teamevent.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Teamevent.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.s
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/flags.make
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o: ../src/Sonstige.cc
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o: CMakeFiles/CPP_Klausur_GERTH.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o -c /home/ngerth/OOMP/Klausur/src/Sonstige.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o -MF CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o.d -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o -c "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Sonstige.cc"
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ngerth/OOMP/Klausur/src/Sonstige.cc > CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Sonstige.cc" > CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.i
 
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ngerth/OOMP/Klausur/src/Sonstige.cc -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/nilsg/Desktop/Nils Gerth/src/Sonstige.cc" -o CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.s
 
 # Object files for target CPP_Klausur_GERTH
 CPP_Klausur_GERTH_OBJECTS = \
@@ -189,7 +189,7 @@ CPP_Klausur_GERTH: CMakeFiles/CPP_Klausur_GERTH.dir/src/Teamevent.cc.o
 CPP_Klausur_GERTH: CMakeFiles/CPP_Klausur_GERTH.dir/src/Sonstige.cc.o
 CPP_Klausur_GERTH: CMakeFiles/CPP_Klausur_GERTH.dir/build.make
 CPP_Klausur_GERTH: CMakeFiles/CPP_Klausur_GERTH.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ngerth/OOMP/Klausur/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CPP_Klausur_GERTH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CPP_Klausur_GERTH"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_Klausur_GERTH.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/CPP_Klausur_GERTH.dir/clean:
 .PHONY : CMakeFiles/CPP_Klausur_GERTH.dir/clean
 
 CMakeFiles/CPP_Klausur_GERTH.dir/depend:
-	cd /home/ngerth/OOMP/Klausur/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngerth/OOMP/Klausur /home/ngerth/OOMP/Klausur /home/ngerth/OOMP/Klausur/build /home/ngerth/OOMP/Klausur/build /home/ngerth/OOMP/Klausur/build/CMakeFiles/CPP_Klausur_GERTH.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/nilsg/Desktop/Nils Gerth" "/mnt/c/Users/nilsg/Desktop/Nils Gerth" "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build" "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build" "/mnt/c/Users/nilsg/Desktop/Nils Gerth/build/CMakeFiles/CPP_Klausur_GERTH.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CPP_Klausur_GERTH.dir/depend
 

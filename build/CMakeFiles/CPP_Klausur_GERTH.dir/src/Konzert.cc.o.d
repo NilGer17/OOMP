@@ -1,7 +1,8 @@
 CMakeFiles/CPP_Klausur_GERTH.dir/src/Konzert.cc.o: \
- /home/ngerth/OOMP/Klausur/src/Konzert.cc /usr/include/stdc-predef.h \
- /home/ngerth/OOMP/Klausur/include/Konzert.h \
- /home/ngerth/OOMP/Klausur/include/BasicTicket.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/src/Konzert.cc \
+ /usr/include/stdc-predef.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/Konzert.h \
+ /mnt/c/Users/nilsg/Desktop/Nils\ Gerth/include/BasicTicket.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

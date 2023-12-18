@@ -1,7 +1,0 @@
-<map id="Grafische Darstellung der Klassenhierarchie" name="Grafische Darstellung der Klassenhierarchie">
-<area shape="rect" id="node1" href="$classBasicTicket.html" title="The BasicTicket class represents a basic ticket with place, price, and availability information." alt="" coords="5,81,101,108"/>
-<area shape="rect" id="node2" href="$classFestival.html" title="The Festival class represents a festival ticket with additional start date, end date,..." alt="" coords="160,5,233,32"/>
-<area shape="rect" id="node3" href="$classKonzert.html" title="The Konzert class represents a concert ticket with additional date, time, and artist information." alt="" coords="161,56,232,83"/>
-<area shape="rect" id="node4" href="$classSonstiges.html" title="The Sonstiges class represents a miscellaneous ticket with additional description,..." alt="" coords="154,107,239,133"/>
-<area shape="rect" id="node5" href="$classTeamevent.html" title="The Teamevent class represents a team sports event ticket with information about the teams,..." alt="" coords="149,157,244,184"/>
-</map>
